@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Cantata+One&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  width: 173px;
+  height: 45px;
+  font-size: 30px;
+  font-family: 'Cantata One', serif;
+  color: white;
+  border-radius: 5px;
+  outline-color: white;
+}
+
+input {
+  border-radius: 5px;
+  outline-color: white;
+}
+
+#container {
+  -webkit-box-shadow: 0px 6px 27px -9px rgba(0,0,0,0.44);
+  -moz-box-shadow: 0px 6px 27px -9px rgba(0,0,0,0.44);
+  box-shadow: 0px 6px 27px -9px rgba(0,0,0,0.44);
+  border-radius: 5px;
+  width:400px;
+  height:400px;
+  border: 1px solid #DDDDDD;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+
+#inputs {
+  width: 350px;
+  margin: 0 auto;
+}
+
+#buttons {
+  width: 350px;
+  margin: 0 auto;
+}
+
+#green-button{
+  background-color: #2ECC40;
+  border-color: #2ECC40;
+
+}
+
+#red-button {
+  background-color: #FF4136;
+  border-color: #FF4136;
+}
+
+#display {
+  color: white;
+  font-family: 'Cantata One', serif;
+  text-align:center;
+  font-size: 180px;
+  height: 200px;
+  background-color: #FFDC00;
+  transition: 0.3s ease-in-out;
+}
+
+.background-red{
+  background-color: #FF4136 !important;
+}
+
+.background-green{
+  background-color: #2ECC40 !important;
+}
+
+#controls{
+  line-height: 100px;
+}
